@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Inspiration&family=Lobster&family=Playfair+Display:wght@600&family=Yellowtail&display=swap');
+
+.navigaton-bar{
+    background-color: var(--primary-color);
+}
+
+.nav-header{
+
+    font-family: 'Bad Script', cursive;
+}
+
+.auth-section{
+    gap: 6rem;
+}
+
+.rules-btn, .auth-btn{
+    border-radius: .5rem;
+}

@@ -1,0 +1,53 @@
+.main-section {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.home-img {
+    width: 100%;
+    border: none;
+}
+
+.btn {
+    font-weight: 600;
+    border-radius: 1rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+
+.img-section {
+    width: min-content;
+    background-color: var(--aliceblue);
+}
+
+.quiz-img {
+    width: 22rem;
+    height: 24rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.play-btn {
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+
+.play-btn:hover {
+    color: var(--black-900);
+    background-color: var(--blue-50);
+    transition: .6s;
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 12px;
+    }
+
+    .main-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home-img {
+        width: 80%;
+    }
+}
