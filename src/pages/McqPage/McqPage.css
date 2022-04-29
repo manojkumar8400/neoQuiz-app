@@ -1,0 +1,47 @@
+.mcq-container {
+    min-height: 71.2vh;
+}
+
+.mcq-section {
+    display: grid;
+    text-align: center;
+    font-size: 1.4rem;
+    max-width: 50rem;
+    margin: auto;
+    padding: 5rem 0;
+    margin-top: .5rem;
+}
+
+.mcq {
+    display: inline-block;
+    text-align: center;
+    line-height: 3rem;
+    margin: auto;
+}
+
+.mcq-ans{
+    border: 2px solid;
+    margin: 1.6rem;
+    width: 30rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.mcq-ans:hover{
+    background-color: var(--primary-color);
+}
+
+.submit-btn{
+    margin: auto;
+    margin-top: 1rem;
+    width: max-content;
+    padding: .7rem 1.3rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .mcq-section{
+        margin-top: 3.4rem;
+    }
+}

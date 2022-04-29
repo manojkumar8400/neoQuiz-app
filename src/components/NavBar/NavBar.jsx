@@ -12,7 +12,7 @@ const NavBar = () => {
                 <h2 className="nav-header">neoQuiz</h2>
             </Link>
             <section className="auth-section flex-center">
-                <Link to="/">
+                <Link to="/rule">
                     <button className="rules-btn p-8">Rules</button>
                 </Link>
                 <Link to="/">

@@ -17,6 +17,8 @@
 .img-section {
     width: min-content;
     background-color: var(--aliceblue);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
 }
 
 .quiz-img {
@@ -24,6 +26,11 @@
     height: 24rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+}
+
+.radious{
+    border-top-left-radius: 1.7rem;
+    border-top-right-radius: 1.7rem;
 }
 
 .play-btn {
