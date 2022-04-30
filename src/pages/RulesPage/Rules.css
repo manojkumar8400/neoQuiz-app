@@ -1,0 +1,28 @@
+.rules-section {
+    display: grid;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.rules-img{
+    margin: auto;
+    width: 30rem;
+    height: 13rem;
+}
+.cont {
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+}
+
+.start-btn{
+    margin: auto;
+    width: fit-content;
+    padding: .5rem 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 2.4rem;
+}
+
+@media screen and (max-width: 800px) {
+    .rules-container {
+        height: 77vh;
+    }
+}
