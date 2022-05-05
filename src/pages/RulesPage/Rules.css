@@ -1,7 +1,6 @@
 .rules-section {
     display: grid;
     justify-content: center;
-    padding-top: 2rem;
 }
 .rules-img{
     margin: auto;
@@ -15,10 +14,8 @@
 
 .start-btn{
     margin: auto;
-    width: fit-content;
     padding: .5rem 2rem;
     font-size: 1.3rem;
-    margin-bottom: 2.4rem;
 }
 
 @media screen and (max-width: 800px) {

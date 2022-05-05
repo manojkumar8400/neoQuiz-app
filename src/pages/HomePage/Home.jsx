@@ -23,19 +23,25 @@ const HomePage = () => {
                     <img className="quiz-img radious" src="https://lh3.googleusercontent.com/DXYqwbqhBeF9FnEpridWKO6-Rj0LMlcKITlco1wz2kx9Ji5e5IvzVLp3baj926dZUDY" alt="ipl quiz img" />
                     <h2>IPL Quiz Game</h2>
                     <p className="text-align f-size-16">Check your knowledge of Indian Premiere League</p>
-                    <button className="play-btn w-100 p-8">Play Now</button>
+                    <Link to="./rule" className="w-100">
+                        <button className="play-btn w-100 p-8">Play Now</button>
+                    </Link>
                 </section>
                 <section className="img-section grid jstfy-item-center">
                     <img className="quiz-img" src="https://www.dailypioneer.com/uploads/2019/story/images/big/barry-jenkins-pushes--avengers--endgame--for-2020-award-season-2019-04-29.jpg" alt="marvel img"/>
                     <h2>Marvel Quiz game</h2>
                     <p>Check your knowledge of Marvel Universe</p>
-                    <button className="play-btn w-100 p-8">Play Now</button>
+                    <Link to="./rule" className="w-100">
+                        <button className="play-btn w-100 p-8">Play Now</button>
+                    </Link>
                 </section>
                 <section className="img-section grid jstfy-item-center">
                     <img className="quiz-img" src="https://icebreakerideas.com/wp-content/uploads/2020/09/Space-Trivia-e1608509102528.jpg" alt="space quiz img" />
                     <h2>Space Quiz game</h2>
                     <p>Check your knowledge of Our Space</p>
-                    <button className="play-btn w-100 p-8">Play Now</button>
+                    <Link to="./rule" className="w-100">
+                        <button className="play-btn w-100 p-8">Play Now</button>
+                    </Link>
                 </section>
             </section>
         </div>
