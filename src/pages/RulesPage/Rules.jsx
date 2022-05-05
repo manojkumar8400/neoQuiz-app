@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "./Rules.css";
 
 const Rules = () => {
@@ -16,7 +17,10 @@ const Rules = () => {
                     <li>Second Stage above 50 and less 70 Average</li>
                     <li>Third Stage above 30 and less 50 poor</li>
                 </ol>
-                <button className='start-btn'>Start Quiz</button>
+
+                <Link to="/mcq-page" className="w-100">
+                    <button className='start-btn w-100'>Start Quiz</button>
+                </Link>
             </section>
         </div>
     )

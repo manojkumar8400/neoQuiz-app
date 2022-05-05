@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Inspiration&family=Libre+Baskerville&family=Lobster&family=Playfair+Display:wght@600&family=Roboto+Slab:wght@300&family=Yellowtail&display=swap');
 
-:root{
-  --primary-color:rgb(105, 167, 167);
-  --blue-50:rgb(235, 235, 235);
-  --aliceblue:rgb(240, 248, 255);
-  --white:rgb(255, 255, 255);
-  --black-900:rgb(0, 0, 0);
+:root {
+  --primary-color: rgb(105, 167, 167);
+  --blue-50: rgb(235, 235, 235);
+  --blue-900: blue;
+  --aliceblue: rgb(240, 248, 255);
+  --white: rgb(255, 255, 255);
+  --black-900: rgb(0, 0, 0);
+  --gray-200: rgb(211, 211, 211);
 }
-html{
+
+html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -15,18 +18,22 @@ html{
   scroll-behavior: smooth;
 }
 
-.app{
-  font-family: 'bad', cursive;
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
-a{
+
+a {
   text-decoration: none;
   color: var(--black-900);
 }
 
-ul{
+ul {
   text-decoration: none;
 }
 
-button{
+button {
   cursor: pointer;
 }
