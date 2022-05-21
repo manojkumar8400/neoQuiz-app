@@ -6,3 +6,7 @@
     background-color: var(--primary-color);
     text-align: center;
 }
+
+.f-color{
+    color: var(--black-900);
+}

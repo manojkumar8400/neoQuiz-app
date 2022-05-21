@@ -1,5 +1,3 @@
-import NavBar from "./NavBar/NavBar";
-import PageNotFound from "./404Page/PageNotFound";
-import Footer from "./footer/Footer";
-
-export { NavBar, PageNotFound, Footer }
+export { NavBar } from "./NavBar/NavBar";
+export { PageNotFound } from "./404Page/PageNotFound";
+export { Footer } from "./footer/Footer";

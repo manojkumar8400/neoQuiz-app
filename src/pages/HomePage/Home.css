@@ -18,18 +18,18 @@
     background-color: var(--aliceblue);
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
+    max-height: 55vh;
+    box-shadow: 2px 13px 5px 1px var(--gray-500);
 }
 
 .quiz-img {
-    width: 22rem;
+    width: 23rem;
     height: 24rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-
-.radious{
-    border-top-left-radius: 1.7rem;
-    border-top-right-radius: 1.7rem;
+img1{
+    width: fit-content;
 }
 
 .play-btn {
@@ -54,5 +54,8 @@
 
     .home-img {
         width: 80%;
+    }
+    .auth-section{
+        gap: 3rem;
     }
 }
