@@ -1,6 +1,14 @@
-# NeoQuiz
 
-NeoQuiz is a web app that lets you play quizzes.
+#  🔗[ NeoQuiz game](https://clinquant-semifreddo-e49ebb.netlify.app/)
+
+## Description
+NeoQuiz is a Quiz game in which users can play three types of games.
+It is mobile Responsive.
+
+### Tech Stack
+* REACT JS
+* REACT-ROUTER
+* CSS
 
 ## Features
 
@@ -17,5 +25,7 @@ NeoQuiz is a web app that lets you play quizzes.
  - Authentication
     - Sign Up 
     - Sign In 
+ 
+## PREVIEW
 
 https://user-images.githubusercontent.com/70743261/169640191-65c35f0d-f058-44cd-8161-7e99607670fa.mp4

@@ -1,24 +1,27 @@
-.mcq-section {
-    max-width: 50rem;
-}
-
 .mcq {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
     line-height: 3rem;
 }
 
-.option{
+.option {
     border: 2px solid;
-    margin: 1.6rem;
+    margin: .8rem;
     width: 30rem;
     border-radius: 1rem;
     cursor: pointer;
+    font-size: 1.2rem;
+    padding: .6rem 0;
+    color: inherit;
+    background-color: var(--white);
 }
 
-.option:hover{
-    background-color: var(--primary-color);
+.option:hover {
+    background-color: var(--gray-200);
 }
 
-.submit-btn{
+.submit-btn {
     width: max-content;
     padding: .7rem 1.3rem;
     font-size: 1.3rem;
@@ -26,7 +29,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .mcq-section{
-        margin-top: 3.4rem;
+    .option {
+        width: 20rem;
     }
 }

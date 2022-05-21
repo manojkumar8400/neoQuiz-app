@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-// import "./Signup.css";
+import "./Auth.css";
 
 const Signup = () => {
 
     return (
         <>
-            <form className="flex-column flex-center">
+            <form className="log-container grid-center">
                 <div className="signup-container flex-column">
                     <h2 className="text-align">Signup</h2>
                     <label className="txt">Email address</label>
@@ -46,4 +46,4 @@ const Signup = () => {
     )
 }
 
-export default Signup 
+export { Signup }

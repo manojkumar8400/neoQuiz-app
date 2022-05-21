@@ -4,12 +4,18 @@ import { BrowserRouter } from "react-router-dom";
 import './index.css';
 import App from './App';
 import { AuthProvider } from "./contexts/AuthContext";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import { DataProvider } from "./contexts/DataContext";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <AuthProvider>
-        <App />
+        <ThemeProvider>
+          <DataProvider>
+            <App />
+          </DataProvider>
+        </ThemeProvider>
       </AuthProvider>
     </BrowserRouter>
   </React.StrictMode>,

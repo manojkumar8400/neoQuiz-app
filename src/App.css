@@ -3,11 +3,14 @@
 :root {
   --primary-color: rgb(105, 167, 167);
   --blue-50: rgb(235, 235, 235);
-  --blue-900: blue;
+  --blue-900: rgb(0, 0, 255);
   --aliceblue: rgb(240, 248, 255);
   --white: rgb(255, 255, 255);
-  --black-900: rgb(0, 0, 0);
+  --black-900: rgb(17, 15, 15);
   --gray-200: rgb(211, 211, 211);
+  --gray-500: rgb(99, 98, 98);
+  --green-900: rgb(82, 151, 82);
+  --red-900:rgb(255, 0, 0);
 }
 
 html {
@@ -22,7 +25,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 a {
@@ -36,4 +39,20 @@ ul {
 
 button {
   cursor: pointer;
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-black {
+  background-color: var(--black-900);
+}
+
+.color-black {
+  color: var(--black-900);
+}
+
+.color-white {
+  color: var(--primary-color);
 }
