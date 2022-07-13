@@ -33,7 +33,7 @@ const Result = () => {
         )
       }
       <Link to="/quiz-board"  className='m-auto'>
-        <button className='f-size-20 mtb-16 p-8'>Quiz Board</button>
+        <button className='quiz-btn f-size-20 mtb-16 p-8'>Quiz Board</button>
       </Link>
       <button onClick={() => window.scrollTo(0, 0)} className='up-arrow'>&#10153;</button>
     </div>

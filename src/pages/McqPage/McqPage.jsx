@@ -27,8 +27,12 @@ const McqPage = () => {
                 <p className='question'>Q{[count + 1]} {data[count].ques}</p>
                 <ol className='mcq m-auto' >
                     {
-                        data[count].opt.map((opt, index) => <li key={opt}><button
-                            onClick={() => { optionHandler(index) }} className="option"> {opt}</button> </li>)
+                        data[count].opt.map((opt, index) =>
+                            <li key={opt}>
+                                <button onClick={() => { optionHandler(index) }} className="option">
+                                    {opt}
+                                </button>
+                            </li>)
                     }
                 </ol>
             </section>

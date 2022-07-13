@@ -18,10 +18,15 @@ const NavBar = () => {
                 <button onClick={() => {
                     setTheme(theme === "light" ? "dark" : "light");
                 }} className="rules-btn themeBtn p-8">
-                    {theme === 'light' ? <img className="theme-mode moon-logo" src="./Assest/moon.webp" alt="night mode" /> : <img className="theme-mode sun-logo" src="./Assest/sunny.svg" alt="night mode" />}
+                    {theme === 'light' ? <span class="material-icons moon-logo">dark_mode</span> : <span class="material-icons sun-logo">light_mode</span>}
                 </button>
                 <Link to="/login">
-                    <button className="auth-btn p-8"> {login ? "Logout" : "Login"}</button>
+                    {/* <button className="auth-btn p-8"> */}
+                        {
+                            login ? <span className="material-icons  f-size-40">person</span> :
+                                <span className="material-icons  f-size-40">person</span>
+                        }
+                    {/* </button> */}
                 </Link>
             </section>
         </nav>

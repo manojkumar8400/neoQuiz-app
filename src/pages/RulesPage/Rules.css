@@ -3,7 +3,7 @@
     height: 13rem;
 }
 
-.input-txt{
+.input-txt {
     border: 2px solid;
 }
 
@@ -15,12 +15,18 @@
 .start-btn {
     padding: .4rem 2rem;
     font-size: 1.2rem;
+    background-color: var(--primary-color);
+}
+
+.start-btn:hover {
+    background-color: var(--blue-500);
 }
 
 @media screen and (max-width: 380px) {
-    .rules-section{
+    .rules-section {
         width: 25rem;
     }
+
     .rules-img {
         width: 25rem;
         height: 13rem;

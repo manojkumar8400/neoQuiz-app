@@ -45,6 +45,14 @@
     color: var(--black-900);
 }
 
+.quiz-btn {
+    background-color: var(--primary-color);
+}
+
+.quiz-btn:hover {
+    background-color: var(--blue-500);
+}
+
 .up-arrow {
     position: absolute;
     font-size: 2rem;

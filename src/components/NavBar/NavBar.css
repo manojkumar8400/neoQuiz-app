@@ -12,8 +12,15 @@
     gap: 6rem;
 }
 
-.rules-btn, .auth-btn {
+.rules-btn,
+.auth-btn {
     border-radius: .5rem;
+}
+
+.auth-btn {
+    color: var(--black-900);
+    border: none;
+    font-size: 1.3rem;
 }
 
 .theme-mode {
@@ -23,14 +30,16 @@
 .moon-logo {
     transform: translateY(0%) rotateZ(0deg);
     transition: 1s;
+    font-size: 2.5rem;
 }
 
 .sun-logo {
     transform: translateY(0) rotateZ(90deg);
     transition: 1s;
+    font-size: 2.5rem;
 }
 
-.themeBtn{
+.themeBtn {
     background-color: inherit;
     border: none;
 }

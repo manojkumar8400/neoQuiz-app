@@ -34,9 +34,11 @@ const Signup = () => {
                         <input className="checkbox-input" type="checkbox" />
                         <label className="txt">I accept all Terms & Conditions</label><br />
                     </div>
-                    <button className="mtb-16 w-100 ptb-8">
-                        Create New Account
-                    </button>
+                    <Link to="/">
+                        <button className="mtb-16 w-100 ptb-8">
+                            Create New Account
+                        </button>
+                    </Link>
                     <label className="text-align">Already a member?
                         <Link to="/login" className="color"><strong> Login</strong></Link>
                     </label>

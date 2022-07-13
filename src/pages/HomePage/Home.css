@@ -14,17 +14,15 @@
 }
 
 .img-section {
-    width: min-content;
     background-color: var(--aliceblue);
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
-    max-height: 55vh;
-    box-shadow: 2px 13px 5px 1px var(--gray-500);
+    width: 25rem;
 }
 
 .quiz-img {
-    width: 23rem;
-    height: 24rem;
+    width: 25rem;
+    height: 22rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
@@ -38,8 +36,7 @@ img1{
 
 .play-btn:hover {
     color: var(--black-900);
-    background-color: var(--blue-50);
-    transition: .6s;
+    background-color: var(--blue-500);
 }
 
 @media screen and (max-width: 800px) {

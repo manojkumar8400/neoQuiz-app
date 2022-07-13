@@ -10,3 +10,7 @@
 .f-color{
     color: var(--black-900);
 }
+
+.logo{
+    font-size: 2rem;
+}
